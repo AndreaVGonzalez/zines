@@ -59,7 +59,6 @@ Navegación
     justify-content: flex-end;
 }
 
-
 .nav a {
     display: block;
     font-weight: bold;
@@ -84,23 +83,29 @@ Navegación
 /*
 -----------------------------------
 
-Nosotros
+Zine
 
 -----------------------------------
 */
 
-.texto {
+.texto-imagen {
+    display: flex;
     max-width: 1000px;
     padding: 50px;
     margin:auto;
-    text-align: center;
+    
+}
+
+.texto {
+    padding:50px;
+    margin: auto;
 }
 
 .parrafo {
     padding-top: 10px;
 }
 
-.imagen-nosotros {
+.imagen-zine {
     width: 350px;
     height: 475px;
     display:block;

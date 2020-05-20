@@ -14,6 +14,12 @@ body {
 
 }
 
+.super-contenido {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
 .cabecera,
 .contenido-uno,
 .contenido-dos {
@@ -30,11 +36,6 @@ body {
     padding: 10px 0;
 }
 
-.super-contenido {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-}
 
 .logo {
     width: 500px; 
