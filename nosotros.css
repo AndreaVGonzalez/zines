@@ -84,31 +84,28 @@ Navegación
 /*
 -----------------------------------
 
-Productos
+Nosotros
 
 -----------------------------------
 */
 
-.productos-todos {
+.texto {
     max-width: 1000px;
-    margin: auto; 
-    padding-top: 20px;
+    padding: 50px;
+    margin:auto;
+    text-align: center;
 }
 
-.productos-uno,
-.productos-dos {
-    display: flex;
-    padding: 30px;
+.parrafo {
+    padding-top: 10px;
 }
 
-.imagen-zine {
+.imagen-nosotros {
     width: 350px;
     height: 475px;
-    padding: 10px;
-  }
-
-.imagen-zine:hover {
-    opacity: 0.7;
+    display:block;
+    margin:auto;
+    padding-bottom: 20px;
 }
 
   /*
@@ -148,7 +145,6 @@ Footer
 }
 
 .pie {
-    
     background-color: whitesmoke;
     position:relative;
     bottom: 0;

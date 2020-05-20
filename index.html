@@ -1,50 +1,44 @@
 <!doctype html>
 
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <title>ZINES!</title>
+    <title>DISARM</title>
     <link href="estilos.css" rel="stylesheet">
-
-    <div class="contenido">  <!--CONSULTAR ESTO- tendria que cambiarle las clases? pero no se eso estaria bie, o como estaria bien 
-                                    tambien, como puedo hacer para que quede alado de lo que seria el logo(floats?).-->
-
-             <li class="nav-lista_item nav-lista_form">
-                 <form action="buscar.js">
-            
-                     <input type="text"
-                     placeholder="Buscar...">
-            
-                    <input type="submit" value="Buscar">
-                </form>
-             </li>
-
-        <nav class="nav">
-            <ul class="nav-lista">
-
-                 <li class="nav-lista_item">
-                <a href="#">REGISTRO</a>
-                 </li>
-                 <li class="nav-lista_item">
-                    <a href="#">INICIAR SESIÓN</a>
-                 </li>
-    
-             </ul>
-        </nav>
-
-    </div> 
-
 </head>
 
 <body>
-    <div class="cabecera">
-        <a href "index.html">
-        <img src="" alt="Ir a la home">
-        </a>
+    <div class="super-contenido">
+        <div class="cabecera">
+            <a href "index.html">
+                <img class=logo src="logo.jpg" alt="Ir a la home">
+            </a>
+        </div>
     
-    </div>
-    <div class="contenido">
+        <div class="contenido-uno"> 
+                <div class="nav-lista_item nav-lista_form">
+                        <form action="buscar.js">
+                            <input type="text" placeholder="Buscar...">
+                            <input type="submit" value="Buscar">
+                        </form>
+                </div>
+    
+                <nav class="nav">
+                    <ul class="nav-lista">
+                        <li class="nav-lista_item">
+                            <a href="#">REGISTRATE</a>
+                        </li>
+                        <li class="nav-lista_item">
+                            <a href="#">INICIAR SESIÓN</a>
+                        </li>
+                    </ul>
+                </nav>
+        </div>  <!-- cierra .contenido-uno -->
+    </div>  <!--- cierra .super-contenido-->
 
+
+    <div class="contenido-dos"> 
         <nav class="nav">
             <ul class="nav-lista">
                 <li class="nav-lista_item">
@@ -54,19 +48,113 @@
                     <a href="#">BLOG</a>
                 </li>
                 <li class="nav-lista_item">
-                    <a href="#">NOSOTROS</a>
+                    <a href="nosotros.html">NOSOTROS</a>
                 </li>
             
             </ul>
         </nav>
+    </div> <!-- cierra .contenido-dos -->
 
-    </div> 
+    <div class="productos-todos">
+        <div class="productos">
+            <h2 class=categoria-titulo>NUEVOS</h2>
+        </div>
 
-    <h1>MAS VENDIDOS</h1>
+      <div class=productos-uno>
+        <div class="zine">
+            <h2 class="zine-titulo">Zine #1</h2>
+            <div class="zine-info">
+                <a href="#"><img class=imagen-zine src="zine-uno.jpg" alt=""></a>
+                <p>Potter ipsum.</p>
+            </div>
+        </div>
+        <div class="zine">
+            <h2 class="zine-titulo">Zine #2</h2>
+            <div class="zine-info">
+                <a href="#"><img class=imagen-zine src="zine-tres.jpg" alt=""></a>
+                <p>Potter ipsum.</p>
+            </div>
+        </div>
 
-    <h1>NUEVOS</h1>
+        <div class="zine">
+            <h2 class="zine-titulo">Zine #3</h2>
+            <div class="zine-info">
+                <a href="#"><img class=imagen-zine src="zine-dos.jpg" alt=""></a>
+                <p>Potter ipsum.</p>
+            </div>
+        </div>
+    </div><!-- cierra productos-uno -->
+
+
+    <div class="productos">
+        <h2 class=categoria-titulo>MAS VENDIDOS</h2>
+    </div>
+    <div class=productos-dos>
+        
+        <div class="zine">
+            <h2 class="zine-titulo">Zine #4</h2>
+            <div class="zine-info">
+                <a href="#"><img class=imagen-zine src="zine-tres.jpg" alt=""></a>
+                <p>Potter ipsum.</p>
+            </div>
+        </div>
+
+        <div class="zine">
+            <h2 class="zine-titulo">Zine #5</h2>
+            <div class="zine-info">
+                <a href="#"><img class=imagen-zine src="zine-tres.jpg" alt=""></a>
+                <p>Potter ipsum.</p>
+            </div>
+        </div>
+
+        <div class="zine">
+            <h2 class="zine-titulo">Zine #6</h2>
+            <div class="zine-info">
+                <a href="#"><img class=imagen-zine src="zine-cuatro.jpg" alt=""></a>
+                <p>Potter ipsum.</p>
+            </div>
+        </div>
+    
+    </div> <!--cierra productos-dos -->
+    </div><!-- Cierra .productos-todos-->
+
+<footer class="pie">
+
+	<div class="pie-superior">
+
+        <div class="newsletter">
+            <div class="newsletter-info">
+                <h3>¡Suscribite a nuestro Newsletter!</h3>
+            </div>
+            <form action="suscripcion.js">
+                <input type="email">
+                <input type="submit" value="Suscribite">
+            </form>
+        </div><!-- Cierra .newsletter -->
+
+        <div class=redes>
+            <div class="redes-item">
+             <a href="#">FACEBOOK</a>
+            </div>
+            <div class="redes-item">
+             <a href="#">INSTAGRAM</a>
+            </div>
+            <div class="redes-item">
+             <a href="contacto.html">CONTACTO</a>
+            </div>
+            <div class="redes-item">
+             <a href="#">FAQ</a>
+            </div>
+        </div> <!--cierra redes -->
+
+    </div><!-- Cierra .pie-superior -->
+
+    <div class="pie-inferior">
+        <p>Diseñado por <a href="#">Annie Gonzalez</a></p>
+    </div><!-- Cierra .pie-inferior -->
+
+</footer>
 
 </body>
-
 
 </html>
